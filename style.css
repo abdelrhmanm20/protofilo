@@ -6,7 +6,6 @@
     box-sizing: border-box;   
 }
 body{
-    height: 100vh;
     background: url(./img/background.jpg)  center / Cover;
     padding: 50px 5%;
 }
@@ -70,11 +69,11 @@ header{
 .home{
     display: flex;
     align-items: center;
-    height: 100%;
     gap: 50px;
     padding: 50px 5% 0;
     color:#fff;
     animation-delay:1.5s ;
+    min-height: 90vh;
 }
 .home-details{
     display: flex;

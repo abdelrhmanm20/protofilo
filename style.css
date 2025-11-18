@@ -76,6 +76,11 @@ header{
     color:#fff;
     animation-delay:1.5s ;
 }
+.home-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .home-details h1{
     font-size: 45px;
     line-height: 1;
@@ -151,8 +156,8 @@ color: #fff;
     object-fit: cover;
 }
 .card{
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
     border: 1px soild black;
     border-radius: 20px;
     text-align: center;
@@ -160,6 +165,7 @@ color: #fff;
     justify-content: center;
     align-items: center;
     position: relative;
+    
     
 }
 .cards{
@@ -194,8 +200,8 @@ color: #fff;
     text-decoration: none;
     color:rgba(0, 0, 255, 0.738)
 }
-.cards .card button{
-    border: 1px solid black;
+.cards .card button a{
+    border: 1px solid white;
     border-radius: 50px;
     padding: 10px;
     background-color:  rgba(124, 42, 195, 0.819);
@@ -206,11 +212,12 @@ color: #fff;
 }
 .card button a{
     text-decoration: none;
-        color:white;
+    color: white;
 }
-.cards .card button:hover{
+.card button a:hover{
     background-color: white;
     color: black;
+    border: 1px solid black;
 }
 .gallery .button{
     color: black;
@@ -238,7 +245,7 @@ color: #fff;
     margin-top:10%;
 }
 .text-center h1{
-    margin-top: 10%;
+    margin-top: 30%;
     color: white;
     letter-spacing: 7px;
 }

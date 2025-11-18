@@ -155,69 +155,52 @@ color: #fff;
     width: 100%;
     object-fit: cover;
 }
-.card{
-    width: 75%;
-    height: 75%;
-    border: 1px soild black;
-    border-radius: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    
-    
-}
-.cards{
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 30px;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background:rgba(255, 255, 255, .1);
-    margin-top: 10%;
-}
-.tag{
-    margin-top: 13%;
-}
-.tag h1{
-    color: #fff;
-    /* improved line spacing and spacing below the heading */
-    letter-spacing: 10px; /* space between characters */
-    
-}
+
 .card h1{
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+font-size: 25px;
 }
 .card p{
-    font-weight: 100;
-    font-weight:400;
+    color: black;
 }
-.card p a{
-    text-decoration: none;
-    color:rgba(0, 0, 255, 0.738)
-}
-.cards .card button a{
-    border: 1px solid white;
-    border-radius: 50px;
-    padding: 10px;
-    background-color:  rgba(124, 42, 195, 0.819);
-    transition: 1s;
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
+.card{
+text-align: center;
+height: 100%;
+padding: 40px;
+position: relative;
+
 }
 .card button a{
     text-decoration: none;
-    color: white;
+    border: 1px solid blue;
+    border-radius: 30px;
+    padding: 7px;
+    transition: 1s;
 }
 .card button a:hover{
+    background-color: blue;
+    color: white;
+}
+.card button{
+    border: none;
     background-color: white;
-    color: black;
-    border: 1px solid black;
+    position: absolute;
+bottom: 20px;
+right: 20px;
+}
+.jops{
+    margin-top: 10%;
+}
+.cards{
+    border: 1px solid rgba(255, 255, 255, .2);;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, .1);
+}
+.letter h1{
+    color: white;
+    margin-top: 10%;
+    letter-spacing: 10px;
 }
 .gallery .button{
     color: black;
@@ -245,7 +228,7 @@ color: #fff;
     margin-top:10%;
 }
 .text-center h1{
-    margin-top: 30%;
+    margin-top: 15%;
     color: white;
     letter-spacing: 7px;
 }

@@ -17,14 +17,14 @@ body{
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 30px;
     backdrop-filter: blur(30px);
-    transform: scale(0); 
-     animation: zoom-in 1s ease forwards; 
+    /* transform: scale(0); 
+     animation: zoom-in 1s ease forwards;  */
 }
- @keyframes zoom-in{
+ /* @keyframes zoom-in{
     100%{
         transform: scale(1);
     }
-} 
+}  */
 header{
     position: absolute;
     top: 0;
@@ -34,18 +34,18 @@ header{
     z-index: 100;
 }
 
-.animated{
+/* .animated{
     transform: translateY(30px);
     opacity: 0;
     animation: slide-in 1s ease forwards;
     animation-delay: 1s;
-} 
- @keyframes slide-in{
+}  */
+ /* @keyframes slide-in{
     100%{
         transform: translateY(0);
         opacity: 1;
     }
-} 
+}  */
 
 .nav-item .nav-link.active{
     color: white;
